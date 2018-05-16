@@ -8,7 +8,7 @@ phases:
       - npm install
   build:
     commands:
-      - npm run build
+      - npm run build --prod
   post_build:
     commands:
       - aws --region us-east-1 s3 sync ./dist/ s3://test-makerlab/ --acl=public-read --delete
