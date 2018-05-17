@@ -1,27 +1,37 @@
 # TestMakerlab
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.0.
+Manually uploading and deploying code to update applications is a thing of the past. Using AWS tools like CodePipeline, CodeBuild, & S3 students will build a system that allows them to write and push code that triggers seamless and automatic deployments. Students will also setup an email notification that is sent to developers if a status change is made in the build process using , CloudWatch & SNS. Let the free times roll with Continuous Deployments.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run `npm start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+Run `npm run build -prod` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
-## Running unit tests
+## What is covered?
+- Setting up Github Repository
+-- Create a public Github repository 
+-- Clone provided code
+-- Push provided code to new repository
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Setting up a CodePipeline
+-- Configure a new CodePipeline with CodeBuild
 
-## Running end-to-end tests
+- Setting up a CodeBuild
+-- Configuring a new CodeBuild
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+- Setting up S3
+-- Setting up S3 bucket for static hosting
+-- Attach policy to IAM role (S3AdminAccess)
 
-## Further help
+- View live Application
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- Setting up CloudWatch event and SNS Topic
+-- Create and subscribe to an SNS topic
+-- Configure CloudWatch event to trigger on status changes in CodeBuild
+-- See emails sent to subscribers to SNS topic
+
+## Authors
+* [Brock Tubre](http://brocktubre.com) - [Github](https://github.com/brocktubre)
