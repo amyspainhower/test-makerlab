@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Continious Deployment Makerlab';
+  title = 'Let The Free Time Roll - Makerlab';
 }
