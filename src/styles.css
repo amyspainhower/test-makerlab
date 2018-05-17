@@ -1,13 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 .background {
-
+  padding-bottom: 50px;
 }
 
 .header{
-  padding-top: 100px;
-}
-
-
-img {
-
+  padding-top: 50px;
 }
