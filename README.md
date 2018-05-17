@@ -12,26 +12,26 @@ Run `npm run build -prod` to build the project. The build artifacts will be stor
 
 ## What is covered?
 - Setting up Github Repository
--- Create a public Github repository 
--- Clone provided code
--- Push provided code to new repository
+ * Create a public Github repository 
+ * Clone provided code
+ * Push provided code to new repository
 
 - Setting up a CodePipeline
--- Configure a new CodePipeline with CodeBuild
+ * Configure a new CodePipeline with CodeBuild
 
 - Setting up a CodeBuild
--- Configuring a new CodeBuild
+ * Configuring a new CodeBuild
 
 - Setting up S3
--- Setting up S3 bucket for static hosting
--- Attach policy to IAM role (S3AdminAccess)
+ * Setting up S3 bucket for static hosting
+ * Attach policy to IAM role (S3AdminAccess)
 
 - View live Application
 
 - Setting up CloudWatch event and SNS Topic
--- Create and subscribe to an SNS topic
--- Configure CloudWatch event to trigger on status changes in CodeBuild
--- See emails sent to subscribers to SNS topic
+ * Create and subscribe to an SNS topic
+ * Configure CloudWatch event to trigger on status changes in CodeBuild
+ * See emails sent to subscribers to SNS topic
 
 ## Authors
 * [Brock Tubre](http://brocktubre.com) - [Github](https://github.com/brocktubre)
