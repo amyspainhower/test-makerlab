@@ -1,12 +1,28 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <img src="/assets/acloudguru_long_logo.png" height="30" class="d-inline-block align-top" alt="">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <!-- <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li> -->
+    </ul>
+  </div>
+</nav>
+
 <!--The content below is only a placeholder and can be replaced.-->
 <div class="container-fluid background">
-  <div class="header text-center">
-    <h1>
-      {{title}}
-    </h1>
-      <img class="mx-auto d-block" style="max-width: 200px;"src="assets/acloudguru_logo.png">
-  </div>
-  <div class="container tools-body">
+    <div class="container tools-body">
+      <div class="row">
+      <div class="header text-center">
+        <div class="jumbotron">
+            <h1 class="display-3">{{title}}</h1>
+            <p class="lead">Manually uploading and deploying code to update applications is a thing of the past. Using AWS tools like CodePipeline, CodeBuild, & S3 students will build a system that allows them to write and push code that triggers seamless and automatic deployments. Students will also setup an email notification that is sent to developers if a status change is made in the build process using , CloudWatch & SNS. Let the free times roll with Continuous Deployments.</p>
+            <p><a class="btn btn btn-success" href="#" role="button">See source code</a></p>
+          </div>
+          <!-- <img class="mx-auto d-block" style="max-width: 200px;"src="assets/acloudguru_logo.png"> -->
+          <img class="mx-auto d-block" style="max-width: 1000px; padding-top: 50px;"src="assets/continious_delivery.png">
+      </div>
+    </div>
     <div class="row">
         <div class="col-2">
           <img class="img-icon" src="assets/DeveloperTools_AWSCodePipeline_LARGE.png" >
